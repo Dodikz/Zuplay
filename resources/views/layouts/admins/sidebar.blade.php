@@ -42,7 +42,7 @@
                 <!-- MANAJEMEN KANTIN -->
                 <li class="slide__category"><span class="category-name">Manajemen Kantin</span></li>
                 <li class="slide">
-                    <a href="food-management.html" class="side-menu__item">
+                    <a href="{{ route('makanan') }}" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="side-menu__icon"
                             fill="currentColor" viewBox="0 0 24 24">
                             <path
@@ -52,7 +52,7 @@
                     </a>
                 </li>
                 <li class="slide">
-                    <a href="beverage-management.html" class="side-menu__item">
+                    <a href="{{ route('minuman') }}" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="side-menu__icon"
                             fill="currentColor" viewBox="0 0 24 24">
                             <path d="M5 3v18h2v-2h10v2h2V3H5zm12 14H7V5h10v12z" />
@@ -65,37 +65,41 @@
                 <!-- MANAJEMEN BOOKING & RESERVASI -->
                 <li class="slide__category"><span class="category-name">Manajemen Booking</span></li>
                 <li class="slide">
-                    <a href="booking-schedule.html" class="side-menu__item">
+                    <a href="{{ route('jadwal-booking') }}" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="side-menu__icon"
                             fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/>
+                            <path
+                                d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z" />
                         </svg>
                         <span class="side-menu__label">Jadwal Booking</span>
                     </a>
                 </li>
                 <li class="slide">
-                    <a href="booking-management.html" class="side-menu__item">
+                    <a href="{{ route('kelola-booking') }}" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="side-menu__icon"
                             fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M9 11H7v6h2v-6zm4 0h-2v6h2v-6zm4 0h-2v6h2v-6zm2-7h-3V2h-2v2H8V2H6v2H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H3V9h18v11z"/>
+                            <path
+                                d="M9 11H7v6h2v-6zm4 0h-2v6h2v-6zm4 0h-2v6h2v-6zm2-7h-3V2h-2v2H8V2H6v2H3c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm0 16H3V9h18v11z" />
                         </svg>
                         <span class="side-menu__label">Kelola Booking</span>
                     </a>
                 </li>
                 <li class="slide">
-                    <a href="booking-options.html" class="side-menu__item">
+                    <a href="{{ route('opsi-booking') }}" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="side-menu__icon"
                             fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                            <path
+                                d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
                         </svg>
                         <span class="side-menu__label">Opsi Booking</span>
                     </a>
                 </li>
                 <li class="slide">
-                    <a href="booking-timer.html" class="side-menu__item">
+                    <a href="{{ route('timer-booking') }}" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="side-menu__icon"
                             fill="currentColor" viewBox="0 0 24 24">
-                            <path d="M15 1H9v2h6V1zm-4 13h2V8h-2v6zm8.03-6.61l1.42-1.42c-.43-.51-.9-.99-1.41-1.41l-1.42 1.42A8.962 8.962 0 0 0 12 4c-4.97 0-9 4.03-9 9s4.02 9 9 9a8.994 8.994 0 0 0 7.03-14.61zM12 20c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7z"/>
+                            <path
+                                d="M15 1H9v2h6V1zm-4 13h2V8h-2v6zm8.03-6.61l1.42-1.42c-.43-.51-.9-.99-1.41-1.41l-1.42 1.42A8.962 8.962 0 0 0 12 4c-4.97 0-9 4.03-9 9s4.02 9 9 9a8.994 8.994 0 0 0 7.03-14.61zM12 20c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7z" />
                         </svg>
                         <span class="side-menu__label">Timer Booking</span>
                     </a>
@@ -104,9 +108,9 @@
                 <!-- MANAJEMEN FASILITAS -->
                 <li class="slide__category"><span class="category-name">Manajemen Fasilitas</span></li>
                 <li class="slide">
-                    <a href="pc-room-management.html" class="side-menu__item">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="side-menu__icon"
-                            fill="currentColor" viewBox="0 0 24 24">
+                    <a href="{{ route('pc') }}" class="side-menu__item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            class="side-menu__icon" fill="currentColor" viewBox="0 0 24 24">
                             <path
                                 d="M20 3H4c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h6l-2 2v1h8v-1l-2-2h6c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 12H4V5h16v10z" />
                         </svg>
@@ -115,7 +119,22 @@
                 </li>
 
                 <li class="slide">
-                    <a href="futsal-management.html" class="side-menu__item">
+                    <a href="{{ route('ps') }}" class="side-menu__item">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            viewBox="0 0 24 24" class="side-menu__icon">
+                            <path
+                                d="M16 11a1 1 0 1 0 0 2 1 1 0 1 0 0-2M18 9a1 1 0 1 0 0 2 1 1 0 1 0 0-2M16 7a1 1 0 1 0 0 2 1 1 0 1 0 0-2M14 9a1 1 0 1 0 0 2 1 1 0 1 0 0-2M8 8a2 2 0 1 0 0 4 2 2 0 1 0 0-4">
+                            </path>
+                            <path
+                                d="M17 4H7C4.24 4 2 6.24 2 9v7.88a3.124 3.124 0 0 0 5.33 2.21l1.96-1.96c1.45-1.45 3.97-1.45 5.41 0l1.96 1.96c.59.59 1.37.91 2.21.91 1.72 0 3.12-1.4 3.12-3.12V9c0-2.76-2.24-5-5-5Zm3 12.88a1.118 1.118 0 0 1-1.91.79l-1.96-1.96c-1.1-1.1-2.56-1.71-4.12-1.71s-3.02.61-4.12 1.71l-1.96 1.96a1.118 1.118 0 0 1-1.91-.79V9c0-1.65 1.35-3 3-3h10c1.65 0 3 1.35 3 3v7.88Z">
+                            </path>
+                        </svg>
+                        <span class="side-menu__label">PS Room</span>
+                    </a>
+                </li>
+
+                <li class="slide">
+                   <a href="{{ route('futsal') }}" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                             viewBox="0 0 24 24" class="side-menu__icon">
                             <path
@@ -127,7 +146,7 @@
                     </a>
                 </li>
                 <li class="slide">
-                    <a href="badminton-management.html" class="side-menu__item">
+                    <a href="{{ route('badminton') }}" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                             viewBox="0 0 24 24" class="side-menu__icon">
                             <path
@@ -138,7 +157,7 @@
                     </a>
                 </li>
                 <li class="slide">
-                    <a href="volleyball-management.html" class="side-menu__item">
+                    <a href="{{ route('voli') }}" class="side-menu__item"
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                             viewBox="0 0 24 24" class="side-menu__icon">
                             <path
@@ -149,7 +168,7 @@
                     </a>
                 </li>
                 <li class="slide">
-                    <a href="basketball-management.html" class="side-menu__item">
+                    <a href="{{ route('basket') }}" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                             viewBox="0 0 24 24" class="side-menu__icon">
                             <path
@@ -163,7 +182,7 @@
                 <!-- LAPORAN & ANALITIK -->
                 <li class="slide__category"><span class="category-name">Laporan & Analitik</span></li>
                 <li class="slide">
-                    <a href="rental-reports.html" class="side-menu__item">
+                    <a href="{{ route('laporan-penyewaan') }}" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                             class="side-menu__icon" fill="currentColor" viewBox="0 0 24 24">
                             <path
@@ -173,7 +192,7 @@
                     </a>
                 </li>
                 <li class="slide">
-                    <a href="fnb-reports.html" class="side-menu__item">
+                    <a href="{{ route('laporan-fnb') }}" class="side-menu__item">
                         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                             class="side-menu__icon" fill="currentColor" viewBox="0 0 24 24">
                             <path

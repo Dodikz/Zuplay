@@ -46,7 +46,7 @@
     
     <!-- Main Content -->
     <div class="main-content app-content">
-        <div class="container-fluid">
+        <div class="container-fluid py-4">
             @yield('content')
         </div>
     </div>

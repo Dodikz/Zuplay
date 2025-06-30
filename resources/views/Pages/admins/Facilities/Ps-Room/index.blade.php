@@ -1,4 +1,4 @@
-@extends('Pages.admins.index')
+@extends('admin.index')
 @section('content')
-
+v
 @endsection
